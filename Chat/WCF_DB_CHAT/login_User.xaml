@@ -1,0 +1,36 @@
+﻿<Window x:Class="WCF_DB_CHAT.login_User"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WCF_DB_CHAT"
+        mc:Ignorable="d"
+        Title="login_User" ResizeMode="CanMinimize" Height="350" Width="330" Background="{x:Null}" Foreground="{x:Null}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Pic/tekstura-figury-sinij-fon.jpg"/>
+        </Grid.Background>
+        <GroupBox x:Name="logBox" Padding="20" Height="192" Width="222" Foreground="White">
+            <StackPanel>
+                <Label Content="'Login'" Foreground="White" FontSize="14" FontWeight="Bold" Width="55"/>
+                <TextBox x:Name="TB_login_voit"  Margin="3" Height="20" TextWrapping="Wrap" Text="" Width="116" Background="White"/>
+                <Label Content="'Password'" Width="80" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                <TextBox x:Name="TB_password_voit" Height="20"  Text=""  Width="116"/>
+                <Button x:Name="voit" Content="Увійти" Width="73" Click="voit_Click" Height="25" Margin="10" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="13" FontWeight="Bold" Cursor="Hand"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="regBox" Height="192" Width="222" Visibility="Hidden">
+            <StackPanel>
+                <Label Content="'Name'" Width="58" Background="{x:Null}" FontSize="14" FontWeight="Bold" Foreground="White" />
+                <TextBox x:Name="TB_name"  Height="20" TextWrapping="Wrap" Text=""  Width="116"/>
+                <Label Content="'login'"  Width="50" Background="{x:Null}" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                <TextBox x:Name="TB_login_reg" Height="20" TextWrapping="Wrap" Text="" Width="116"/>
+                <Label Content="'Password'" Width="80" Foreground="White" FontSize="14" FontWeight="Bold"/>
+                <TextBox x:Name="TB_password_reg" Height="20" TextWrapping="Wrap" Text="" Width="116"/>
+                <Button x:Name="reg" Content="Реєстрація"  Width="90" Click="reg_Click" Height="25" Margin="10" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="13" FontWeight="Bold" Cursor="Hand"/>
+            </StackPanel>
+        </GroupBox>
+        <Button x:Name="regREG" Content="Реєстрація" Margin="50,12,149.6,0" VerticalAlignment="Top" Click="regREG_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="13" FontWeight="Bold" Cursor="Hand"/>
+        <Button x:Name="regLOG" Content="Увійти" Margin="200,12,49.6,0" VerticalAlignment="Top" Click="regLOG_Click" Background="{x:Null}" Foreground="White" FontSize="13" FontWeight="Bold" BorderBrush="White" Cursor="Hand"/>
+    </Grid>
+</Window>

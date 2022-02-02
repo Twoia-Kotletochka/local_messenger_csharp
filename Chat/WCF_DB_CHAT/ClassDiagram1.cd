@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WCF_DB_CHAT.App" Collapsed="true">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCF_DB_CHAT.login_User" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEBAAAAEAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>login_User.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCF_DB_CHAT.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAAAAhhEAACCAAgAEAAFAACAQAAAQACAAAkAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCF_DB_CHAT.Statistics" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Statistics .xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCF_DB_CHAT.ServiceReference1.CompositeType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAACAAAAAAAAAgAAAAAAkAAAAAAIQAAI=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCF_DB_CHAT.ServiceReference1.Message" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAABAAAAAAAAAgBAgAIAACQEAAgQAAIAIiA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCF_DB_CHAT.ServiceReference1.Contacts" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAIAAAgAAgAAEQAAEAAAYAgIAEAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCF_DB_CHAT.ServiceReference1.Service1Client" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAEIERAVQAAAgAAAAAAAAAAGAAAEQAIEAEAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WCF_DB_CHAT.Properties.Resources" Collapsed="true">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WCF_DB_CHAT.Properties.Settings" Collapsed="true">
+    <Position X="6.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Window" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Configuration.ApplicationSettingsBase" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.ServiceModel.ClientBase&lt;TChannel&gt;" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Application" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Configuration.SettingsBase" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Threading.DispatcherObject" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="WCF_DB_CHAT.ServiceReference1.IService1" Collapsed="true">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAACAEIERAVQAAAgAAAAAAAAAAGAAAEQAIEAEAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WCF_DB_CHAT.ServiceReference1.IService1Channel" Collapsed="true">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connected Services\ServiceReference1\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

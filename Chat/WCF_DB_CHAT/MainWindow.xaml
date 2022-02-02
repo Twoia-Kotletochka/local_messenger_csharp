@@ -1,0 +1,212 @@
+﻿<Window x:Class="WCF_DB_CHAT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WCF_DB_CHAT"
+        mc:Ignorable="d"
+         Title="MainWindow" MinHeight="490" Height="610" MinWidth="660" Width="800.8">
+    <Window.Resources>
+        <ControlTemplate x:Key="ComboBoxToggleButton" TargetType="{x:Type ToggleButton}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="20" />
+                </Grid.ColumnDefinitions>
+                <Border
+                  x:Name="Border" 
+                  Grid.ColumnSpan="2"
+                  CornerRadius="0"
+                  Background="#4a5d74"
+                  BorderBrush="White"
+                  BorderThickness="1" />
+                <Border 
+                  Grid.Column="0"
+                  CornerRadius="0" 
+                  Margin="1" 
+                  Background="#3f5d83" 
+                  BorderBrush="#FF97A0A5"
+                  BorderThickness="0,0,1,0" />
+                <Path 
+                  x:Name="Arrow"
+                  Grid.Column="1"     
+                  Fill="White"
+                  HorizontalAlignment="Center"
+                  VerticalAlignment="Center"
+                  Data="M0,0 L0,2 L4,6 L8,2 L8,0 L4,4 z"
+                />
+            </Grid>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="ComboBoxTextBox" TargetType="{x:Type TextBox}">
+            <Border x:Name="PART_ContentHost" Focusable="False" Background="{TemplateBinding Background}" />
+        </ControlTemplate>
+
+        <Style x:Key="{x:Type ComboBox}" TargetType="{x:Type ComboBox}">
+            <Setter Property="SnapsToDevicePixels" Value="true"/>
+            <Setter Property="OverridesDefaultStyle" Value="true"/>
+            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+            <Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
+            <Setter Property="MinWidth" Value="120"/>
+            <Setter Property="MinHeight" Value="20"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ComboBox}">
+                        <Grid>
+                            <ToggleButton 
+                            Name="ToggleButton" 
+                            Template="{StaticResource ComboBoxToggleButton}" 
+                            Grid.Column="2" 
+                            Focusable="false"
+                            IsChecked="{Binding Path=IsDropDownOpen,Mode=TwoWay,RelativeSource={RelativeSource TemplatedParent}}"
+                            ClickMode="Press">
+                            </ToggleButton>
+                            <ContentPresenter Name="ContentSite" IsHitTestVisible="False"  Content="{TemplateBinding SelectionBoxItem}"
+                            ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                            ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                            Margin="3,3,23,3"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left" />
+                            <TextBox x:Name="PART_EditableTextBox"
+                            Style="{x:Null}" 
+                            Template="{StaticResource ComboBoxTextBox}" 
+                            HorizontalAlignment="Left" 
+                            VerticalAlignment="Center" 
+                            Margin="3,3,23,3"
+                            Focusable="True" 
+                            Background="#3f5d83"
+                            Foreground="Green"
+                            Visibility="Hidden"
+                            IsReadOnly="{TemplateBinding IsReadOnly}"/>
+                            <Popup 
+                            Name="Popup"
+                            Placement="Bottom"
+                            IsOpen="{TemplateBinding IsDropDownOpen}"
+                            AllowsTransparency="True" 
+                            Focusable="False"
+                            PopupAnimation="Slide">
+
+                                <Grid Name="DropDown"
+                              SnapsToDevicePixels="True"                
+                              MinWidth="{TemplateBinding ActualWidth}"
+                              MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                    <Border 
+                                x:Name="DropDownBorder"
+                                Background="#3f5d83"
+
+                                BorderThickness="1"
+                                BorderBrush="White"/>
+                                    <ScrollViewer Margin="4,6,4,6" SnapsToDevicePixels="True">
+                                        <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained" />
+                                    </ScrollViewer>
+                                </Grid>
+                            </Popup>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="HasItems" Value="false">
+                                <Setter TargetName="DropDownBorder" Property="MinHeight" Value="95"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Foreground" Value="#4a5d74"/>
+                            </Trigger>
+                            <Trigger Property="IsGrouping" Value="true">
+                                <Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+                            </Trigger>
+                            <Trigger SourceName="Popup" Property="Popup.AllowsTransparency" Value="true">
+                                <Setter TargetName="DropDownBorder" Property="CornerRadius" Value="0"/>
+                                <Setter TargetName="DropDownBorder" Property="Margin" Value="0,2,0,0"/>
+                            </Trigger>
+                            <Trigger Property="IsEditable"  Value="true">
+                                <Setter Property="IsTabStop" Value="false"/>
+                                <Setter TargetName="PART_EditableTextBox" Property="Visibility" Value="Visible"/>
+                                <Setter TargetName="ContentSite" Property="Visibility" Value="Hidden"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="{x:Type ComboBoxItem}" TargetType="{x:Type ComboBoxItem}">
+            <Setter Property="SnapsToDevicePixels" Value="true"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="OverridesDefaultStyle" Value="true"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ComboBoxItem}">
+                        <Border Name="Border"
+                              Padding="2"
+                              SnapsToDevicePixels="true">
+                            <ContentPresenter />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsHighlighted" Value="true">
+                                <Setter TargetName="Border" Property="Background" Value="#4a5d74"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Foreground" Value="#4a5d74"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="Pic/tekstura-figury-sinij-fon.jpg"/>
+        </Grid.Background>
+        <ListBox x:Name="lbChat" Margin="4,64,11.4,180" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderBrush="White">
+            <ListBox.Background>
+                <ImageBrush/>
+            </ListBox.Background>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Foreground" Value="white"/>
+                    <Setter Property="FontSize" Value="14" />
+                    <Setter Property="Background" Value="#1a4472"/>
+                    <Setter Property="Margin" Value="2"/>
+                </Style>
+            </ListBox.ItemContainerStyle>
+
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" TextWrapping="Wrap"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
+        <TextBox x:Name="tbMessage"  TextWrapping="Wrap" Text="" KeyDown="tbMessage_KeyDown" BorderBrush="White" Foreground="White" FontSize="14" Margin="160,0,11.4,61" Height="98" VerticalAlignment="Bottom" Grid.Row="1">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+
+        </TextBox>
+
+        <Label x:Name="NAME" Content="Користувач: AAAAAAAAAA" Margin="0,18,82.4,0" VerticalAlignment="Top" Height="35" FontSize="16" Foreground="White" HorizontalAlignment="Right" Width="225"/>
+        <Button x:Name="Send_Butt" Content="Надіслати" Margin="0,0,11.4,9" Click="Button_Click" Background="#FF2558A3" Foreground="White" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.733,0.794" BorderBrush="White" Cursor="Hand" Height="35" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="163" Grid.Row="1"/>
+        <Button  x:Name="Load_sms" Content="Завантажити всі&#xD;&#xA; повідомлення" Margin="2,0,0,59" Click="Load_sms_Click" BorderBrush="White" Foreground="White" FontSize="14" FontFamily="MV Boli" Cursor="Hand" Background="{x:Null}" Height="47" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="154"/>
+        <ComboBox x:Name="lbcontacts" SelectionChanged="Load_sms_Click2" RenderTransformOrigin="0.5,0.5" BorderBrush="White" Background="{x:Null}" Margin="3,23,0,0" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="145" >
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Key}"/>
+                        <TextBlock Text=" ("/>
+                        <TextBlock Text="{Binding Value}"/>
+                        <TextBlock Text=")"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Label Content="КОНТАКТИ" HorizontalAlignment="Left" Margin="4,-1,0,0" VerticalAlignment="Top" FontSize="16" Width="164" Foreground="White" Background="{x:Null}" FontFamily="Sitka Text" Height="25" FontStyle="Italic" FontWeight="Bold"/>
+        <Button Content="Статистика спілкування&#xA;   з користувачем" HorizontalAlignment="Left" Margin="2,0,0,114" Width="153" Click="Button_Click_1" Background="{x:Null}" Foreground="White" FontSize="14" BorderBrush="White" Cursor="Hand" Height="45" VerticalAlignment="Bottom"/>
+        <Label x:Name="Label_chek_sms" Content="Не прочитано (0) смс" HorizontalAlignment="Left" Margin="152,20,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontFamily="MV Boli" RenderTransformOrigin="0.5,0.5" Height="29" Width="185" Grid.RowSpan="2"/>
+        <Button Content="Вихід" Margin="0,24,2.4,0" Background="{x:Null}" BorderBrush="White" Foreground="White" FontSize="14" Click="Button_Click_2" HorizontalAlignment="Right" Width="75" Height="22" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

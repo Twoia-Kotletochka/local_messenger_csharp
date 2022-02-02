@@ -1,0 +1,23 @@
+﻿<Window x:Class="WCF_DB_CHAT.Statistics"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WCF_DB_CHAT"
+        mc:Ignorable="d"
+        Title="Statistics" ResizeMode="CanMinimize" Height="204.919" Width="525.376">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Pic/tekstura-figury-sinij-fon.jpg"/>
+        </Grid.Background>
+        <DatePicker x:Name="Pick_date1" HorizontalAlignment="Left" Margin="410,9,0,0" VerticalAlignment="Top" Cursor="Hand"/>
+        <DatePicker x:Name="Pick_date2" HorizontalAlignment="Left" Margin="410,48,0,0" VerticalAlignment="Top" Cursor="Hand" BorderBrush="{x:Null}" Foreground="Black" RenderTransformOrigin="0.855,0.405"/>
+        <Label x:Name="lable_statistic" Content="" HorizontalAlignment="Left" Margin="5,9,0,0" VerticalAlignment="Top" Foreground="White" Height="110" Width="328" FontSize="14"/>
+        <Button x:Name="button_statistic" Content="Показати статистику" HorizontalAlignment="Left" Margin="352,138,0,0" VerticalAlignment="Top" Width="163" Click="button_statistic_Click" Cursor="Hand" Background="{x:Null}" BorderBrush="White" Foreground="White" Height="33" FontSize="14" FontWeight="Bold"/>
+        <Label Content="Початок" HorizontalAlignment="Left" Margin="340,6,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="White" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.526,0.549"/>
+        <Label Content="Кінець" HorizontalAlignment="Left" Margin="347,45,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="White" FontSize="14" FontWeight="Bold" RenderTransformOrigin="0.439,0.438"/>
+    </Grid>
+</Window>

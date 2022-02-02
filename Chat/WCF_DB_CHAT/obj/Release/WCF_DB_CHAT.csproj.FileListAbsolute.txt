@@ -1,0 +1,57 @@
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\bin\Release\WCF_DB_CHAT.exe.config
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\bin\Release\WCF_DB_CHAT.exe
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\bin\Release\WCF_DB_CHAT.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.csprojAssemblyReference.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\login_User.g.cs
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\MainWindow.g.cs
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\Statistics .g.cs
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\App.g.cs
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT_MarkupCompile.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT_MarkupCompile.lref
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\login_User.baml
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\MainWindow.baml
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\Statistics .baml
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.g.resources
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.Properties.Resources.resources
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.csproj.GenerateResource.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.csproj.CoreCompileInputs.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.exe
+C:\Users\olenc\Desktop\wcf_wpf_chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.pdb
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\bin\Release\WCF_DB_CHAT.exe.config
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\bin\Release\WCF_DB_CHAT.exe
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\bin\Release\WCF_DB_CHAT.pdb
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\login_User.g.cs
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\MainWindow.g.cs
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\Statistics .g.cs
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\App.g.cs
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT_MarkupCompile.cache
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT_MarkupCompile.lref
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\login_User.baml
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\MainWindow.baml
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\Statistics .baml
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.g.resources
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.Properties.Resources.resources
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.csproj.GenerateResource.cache
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.csproj.CoreCompileInputs.cache
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.exe
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.pdb
+E:\wcf_wpf_chat_course project.Net Framework\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.csproj.AssemblyReference.cache
+D:\hai_bude\Chat\WCF_DB_CHAT\bin\Release\WCF_DB_CHAT.exe.config
+D:\hai_bude\Chat\WCF_DB_CHAT\bin\Release\WCF_DB_CHAT.exe
+D:\hai_bude\Chat\WCF_DB_CHAT\bin\Release\WCF_DB_CHAT.pdb
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.csproj.AssemblyReference.cache
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\login_User.g.cs
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\MainWindow.g.cs
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\Statistics .g.cs
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\App.g.cs
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT_MarkupCompile.cache
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT_MarkupCompile.lref
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\login_User.baml
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\MainWindow.baml
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\Statistics .baml
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.g.resources
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.Properties.Resources.resources
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.csproj.GenerateResource.cache
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.csproj.CoreCompileInputs.cache
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.exe
+D:\hai_bude\Chat\WCF_DB_CHAT\obj\Release\WCF_DB_CHAT.pdb

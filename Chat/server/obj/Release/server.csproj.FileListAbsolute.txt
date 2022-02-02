@@ -1,0 +1,44 @@
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Release\server.exe.config
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Release\server.exe
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Release\server.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Release\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Release\WcfToDb.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Release\WcfToDb.dll.config
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\obj\Release\server.csprojAssemblyReference.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\obj\Release\server.csproj.CoreCompileInputs.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\obj\Release\server.csproj.CopyComplete
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\obj\Release\server.exe
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\obj\Release\server.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Release\server.exe.config
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Release\server.exe
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Release\server.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Release\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Release\WcfToDb.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Release\WcfToDb.dll.config
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\obj\Release\server.csprojAssemblyReference.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\obj\Release\server.csproj.CoreCompileInputs.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\obj\Release\server.csproj.CopyComplete
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\obj\Release\server.exe
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\obj\Release\server.pdb
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Release\server.exe.config
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Release\server.exe
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Release\server.pdb
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Release\WcfToDb.dll
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Release\WcfToDb.pdb
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Release\WcfToDb.dll.config
+E:\wcf_wpf_chat_course project.Net Framework\server\obj\Release\server.csprojAssemblyReference.cache
+E:\wcf_wpf_chat_course project.Net Framework\server\obj\Release\server.csproj.CoreCompileInputs.cache
+E:\wcf_wpf_chat_course project.Net Framework\server\obj\Release\server.csproj.CopyComplete
+E:\wcf_wpf_chat_course project.Net Framework\server\obj\Release\server.exe
+E:\wcf_wpf_chat_course project.Net Framework\server\obj\Release\server.pdb
+D:\hai_bude\Chat\server\bin\Release\server.exe.config
+D:\hai_bude\Chat\server\bin\Release\server.exe
+D:\hai_bude\Chat\server\bin\Release\server.pdb
+D:\hai_bude\Chat\server\bin\Release\WcfToDb.dll
+D:\hai_bude\Chat\server\bin\Release\WcfToDb.pdb
+D:\hai_bude\Chat\server\bin\Release\WcfToDb.dll.config
+D:\hai_bude\Chat\server\obj\Release\server.csproj.AssemblyReference.cache
+D:\hai_bude\Chat\server\obj\Release\server.csproj.CoreCompileInputs.cache
+D:\hai_bude\Chat\server\obj\Release\server.csproj.CopyComplete
+D:\hai_bude\Chat\server\obj\Release\server.exe
+D:\hai_bude\Chat\server\obj\Release\server.pdb

@@ -1,0 +1,33 @@
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Debug\server.exe
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Debug\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Debug\server.exe.config
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Debug\server.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Debug\WcfToDb.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\bin\Debug\WcfToDb.dll.config
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\obj\Debug\server.csprojAssemblyReference.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\obj\Debug\server.csproj.CoreCompileInputs.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\obj\Debug\server.csproj.CopyComplete
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\obj\Debug\server.exe
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\server\obj\Debug\server.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Debug\server.exe.config
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Debug\server.exe
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Debug\server.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Debug\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Debug\WcfToDb.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\bin\Debug\WcfToDb.dll.config
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\obj\Debug\server.csprojAssemblyReference.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\obj\Debug\server.csproj.CoreCompileInputs.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\obj\Debug\server.csproj.CopyComplete
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\obj\Debug\server.exe
+C:\Users\olenc\Desktop\wcf_wpf_chat\server\obj\Debug\server.pdb
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Debug\server.exe.config
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Debug\server.exe
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Debug\server.pdb
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Debug\WcfToDb.dll
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Debug\WcfToDb.pdb
+E:\wcf_wpf_chat_course project.Net Framework\server\bin\Debug\WcfToDb.dll.config
+E:\wcf_wpf_chat_course project.Net Framework\server\obj\Debug\server.csprojAssemblyReference.cache
+E:\wcf_wpf_chat_course project.Net Framework\server\obj\Debug\server.csproj.CoreCompileInputs.cache
+E:\wcf_wpf_chat_course project.Net Framework\server\obj\Debug\server.csproj.CopyComplete
+E:\wcf_wpf_chat_course project.Net Framework\server\obj\Debug\server.exe
+E:\wcf_wpf_chat_course project.Net Framework\server\obj\Debug\server.pdb

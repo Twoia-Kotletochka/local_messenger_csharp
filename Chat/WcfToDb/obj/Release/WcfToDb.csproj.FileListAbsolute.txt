@@ -1,0 +1,28 @@
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\bin\Release\WcfToDb.dll.config
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\bin\Release\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\bin\Release\WcfToDb.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\obj\Release\WcfToDb.csprojAssemblyReference.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\obj\Release\WcfToDb.csproj.CoreCompileInputs.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\obj\Release\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\obj\Release\WcfToDb.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\bin\Release\WcfToDb.dll.config
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\bin\Release\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\bin\Release\WcfToDb.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\obj\Release\WcfToDb.csprojAssemblyReference.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\obj\Release\WcfToDb.csproj.CoreCompileInputs.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\obj\Release\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\obj\Release\WcfToDb.pdb
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\bin\Release\WcfToDb.dll.config
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\bin\Release\WcfToDb.dll
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\bin\Release\WcfToDb.pdb
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\obj\Release\WcfToDb.csproj.CoreCompileInputs.cache
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\obj\Release\WcfToDb.dll
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\obj\Release\WcfToDb.pdb
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\obj\Release\WcfToDb.csproj.AssemblyReference.cache
+D:\hai_bude\Chat\WcfToDb\bin\Release\WcfToDb.dll.config
+D:\hai_bude\Chat\WcfToDb\bin\Release\WcfToDb.dll
+D:\hai_bude\Chat\WcfToDb\bin\Release\WcfToDb.pdb
+D:\hai_bude\Chat\WcfToDb\obj\Release\WcfToDb.csproj.AssemblyReference.cache
+D:\hai_bude\Chat\WcfToDb\obj\Release\WcfToDb.csproj.CoreCompileInputs.cache
+D:\hai_bude\Chat\WcfToDb\obj\Release\WcfToDb.dll
+D:\hai_bude\Chat\WcfToDb\obj\Release\WcfToDb.pdb

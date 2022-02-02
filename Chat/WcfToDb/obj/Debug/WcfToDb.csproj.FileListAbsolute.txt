@@ -1,0 +1,19 @@
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\bin\Debug\WcfToDb.dll.config
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\bin\Debug\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\bin\Debug\WcfToDb.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\obj\Debug\WcfToDb.csproj.CoreCompileInputs.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\obj\Debug\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat\WcfToDb\obj\Debug\WcfToDb.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\bin\Debug\WcfToDb.dll.config
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\bin\Debug\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\bin\Debug\WcfToDb.pdb
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\obj\Debug\WcfToDb.csproj.CoreCompileInputs.cache
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\obj\Debug\WcfToDb.dll
+C:\Users\olenc\Desktop\wcf_wpf_chat — копия\WcfToDb\obj\Debug\WcfToDb.pdb
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\bin\Debug\WcfToDb.dll.config
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\bin\Debug\WcfToDb.dll
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\bin\Debug\WcfToDb.pdb
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\obj\Debug\WcfToDb.csprojAssemblyReference.cache
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\obj\Debug\WcfToDb.csproj.CoreCompileInputs.cache
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\obj\Debug\WcfToDb.dll
+E:\wcf_wpf_chat_course project.Net Framework\WcfToDb\obj\Debug\WcfToDb.pdb
